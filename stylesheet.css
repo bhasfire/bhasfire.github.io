@@ -1,4 +1,36 @@
+/* Applying style to HTML tag */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Creating and styling a class */
+.styled-text {
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Creating and styling an ID */
+#section1 {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Styling <a> tag and changing color on hover */
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    color: #ff3366;
+}
+
+/* Modifying box model properties */
+.section {
+    border: 2px solid #ccc;
+    border-radius: 8px;
 }
